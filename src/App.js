@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/layout/Navbar";
+import TopBanner from "./components/layout/TopBanner";
+import Herosection from "./components/section/Herosection";
+import { GlobalStyles } from "./components/styles/Global.styles";
+import { ThemeProvider } from "styled-components";
+ 
+const App = () =>{
 
-function App() {
+  const theme={
+    colors:{
+        white:"rgba(240,247,255,1)",
+        navyBlue:"rgba(2,12,27,1)",
+        lightNavyBlue:"rgba(4,22,48,1)",
+        green:"rgba(0,206,158,1)",
+        orange:"rgba(249,105,14,1)",
+        purple:"rgba(102,51,153,1)"
+     },
+    transition:"all 658ms ease-in-out",
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+   
+      
+      <ThemeProvider theme={theme}>
+      <GlobalStyles />
+        <TopBanner />
+        <Navbar />
+        <Herosection /> 
+         
+      </ThemeProvider>
+      
+    </>
   );
 }
 

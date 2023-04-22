@@ -1,0 +1,27 @@
+export const NavItems=[
+    {
+        isProfile:true
+    },
+    {
+        href:"#about",
+        text:"About"
+    },
+    {
+        href:"#proajects",
+        text:"Projects"
+    },
+    {
+        href:"#services",
+        text:"Services"
+    },
+    {
+        href:"#contact",
+        text:"Contact"
+    },
+    {
+        hasSocialIcon:true
+    },
+    {
+        hasCTA:true
+    }
+]
