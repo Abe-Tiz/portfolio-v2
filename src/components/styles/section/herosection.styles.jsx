@@ -43,7 +43,7 @@ const rotate = keyframes`
 export const StyledHerosection = styled.section`
   width: 100%;
   height: 90vh;
-  margin-top: 48px;
+  margin-top: 85px;
   background: linear-gradient(
     135deg,
     rgba(0,64,77,0.9) 0%,
@@ -149,7 +149,7 @@ export const SocialIcon = styled.a`
     cursor: pointer;
     font-size: 20px;
     margin-top: 15px;
-    color:rgb(106, 29, 179);
+    color:rgb(249, 179, 29);
     transition: all .3s ease-in-out;
     &:hover{
        animation: ${rotate} 1.5s linear infinite;

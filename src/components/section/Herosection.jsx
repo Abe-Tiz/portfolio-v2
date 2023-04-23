@@ -10,17 +10,17 @@ import { CTAButton } from '../styles/commen/CTAButton.styles';
 import {FaArrowDown, FaFacebook, FaGithub, FaTwitter} from "react-icons/fa"
 const Herosection = () => {
   return (
-    <div>
+    <React.Fragment>
       <StyledHerosection >
         <HeroContent>
             <h1>Abebe Tizazu</h1>
             <h3>Fronntend Web Developer</h3>
             <p>{" { HTML . CSS . javascript . ReactJs } "}</p>
-            <div>
+            <React.Fragment>
                 <CTAButton href='#projects'> Projects </CTAButton>
                 <CTAButton href='#contact' primary margin="0 0 0 28px"> Hire Me </CTAButton>
 
-            </div>
+            </React.Fragment>
         </HeroContent>
         <StyledArrowDown href='#about'>
             <FaArrowDown />
@@ -39,7 +39,7 @@ const Herosection = () => {
         </HeroSocialIcons>
       </StyledHerosection>
 
-    </div>
+    </React.Fragment>
   )
 }
 
