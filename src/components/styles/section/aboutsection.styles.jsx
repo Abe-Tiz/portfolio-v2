@@ -64,6 +64,9 @@ export const AboutContent = styled.div`
    flex-grow: 1;
    flex-shrink: 1;
    flex-basis: 0;
+   p{
+    margin: 25px 15px;
+   }
 `;
 
 export const Heading = styled.h1`
