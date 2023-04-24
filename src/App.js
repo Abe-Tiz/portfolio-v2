@@ -3,6 +3,8 @@ import TopBanner from "./components/layout/TopBanner";
 import Herosection from "./components/section/Herosection";
 import { GlobalStyles } from "./components/styles/Global.styles";
 import { ThemeProvider } from "styled-components";
+import { Container } from "./components/styles/commen/Container.styles";
+import AboutSection from "./components/section/AboutSection";
  
 const App = () =>{
 
@@ -27,6 +29,9 @@ const App = () =>{
         <TopBanner />
         <Navbar />
         <Herosection /> 
+        <Container>
+          <AboutSection />
+        </Container>
          
       </ThemeProvider>
       
