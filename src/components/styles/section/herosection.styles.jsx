@@ -116,7 +116,7 @@ export const HeroContent = styled.div`
 
 export const StyledArrowDown= styled.a`
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
 
     svg{
         font-size: 30px;
