@@ -11,7 +11,7 @@ import {FaArrowDown, FaFacebook, FaGithub, FaTwitter} from "react-icons/fa"
 const Herosection = () => {
   return (
     <div>
-      <StyledHerosection >
+      <StyledHerosection id='hero-section'>
         <HeroContent>
             <h1>Abebe Tizazu</h1>
             <h3>Fronntend Web Developer</h3>

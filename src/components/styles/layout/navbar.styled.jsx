@@ -34,6 +34,8 @@ export const Nav = styled.div`
 export const Logo = styled.img`
     width: 56px;
     height: 56px;
+    position:relative;
+    top: -39px;
     border-radius: 50%;
     cursor: pointer; 
     box-shadow: 2px 2px 15px ${({theme}) => theme.colors.green};

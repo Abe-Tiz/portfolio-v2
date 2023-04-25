@@ -5,24 +5,30 @@ import {
   ImageContainer ,
   Heading,
   AboutContent,
-  GradiantCircle
+  GradiantCircle,
+  DarkCircle,
+  Emoji
 } from '../styles/section/aboutsection.styles'
 import { CTAButton } from '../styles/commen/CTAButton.styles';
+ 
 
 const AboutSection = () => {
+   
+
   return (
     <>
-      <AboutContainer>
+      <AboutContainer id='about'>
         
         <ImageContainer>
-          <Image src='/images/abiye.jpg' alt='prof-image' />
+          <Image src='/images/abiye.jpg' alt='prof-image'  title='Abebe Tizazu'/>
+          <DarkCircle />
           <GradiantCircle />
         </ImageContainer>
 
         <AboutContent>
 
           <Heading>
-            Hello <span> 💝 </span>
+            Hello  <Emoji>💝</Emoji>
           </Heading>
 
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -43,6 +49,8 @@ const AboutSection = () => {
         </AboutContent>
       </AboutContainer>
        <hr />
+    
+
     </>
   )
 }

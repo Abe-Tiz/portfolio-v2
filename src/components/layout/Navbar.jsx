@@ -29,9 +29,9 @@ import useScrollDirection from '../../hooks/UseScrollDirection';
     <>
     <Nav scrollDirection={scrollDirection} >
  
-            {/* <a href="#section_hero"> */}
+            <a href="#hero-section">
                 <Logo src='/images/logo.png'/>
-             
+             </a>
          
         <MenuIcon menuOpen={menuOpen} onClick={handleClick}>
            <LineOne menuOpen={menuOpen}/>
