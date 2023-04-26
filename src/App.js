@@ -6,6 +6,7 @@ import { ThemeProvider } from "styled-components";
 import { Container } from "./components/styles/commen/Container.styles";
 import AboutSection from "./components/section/AboutSection";
 import ProjectSection from "./components/section/ProjectSection";
+import ServiceSection from "./components/section/ServiceSection";
  
 const App = () =>{
 
@@ -33,6 +34,8 @@ const App = () =>{
         <Container>
           <AboutSection />
           <ProjectSection />
+          <ServiceSection />
+          
         </Container>
          
       </ThemeProvider>

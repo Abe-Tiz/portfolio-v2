@@ -11,7 +11,7 @@ import { projects } from '../../data/Projects'
 const ProjectSection = () => {
   return (
     <>
-     <ProjectsSection>
+     <ProjectsSection id='projects'>
         <SectionHeading>
              <h1>Projects</h1>
              <p>These are some of my best projects</p>

@@ -7,7 +7,7 @@ export const NavItems=[
         text:"About"
     },
     {
-        href:"#proajects",
+        href:"#projects",
         text:"Projects"
     },
     {

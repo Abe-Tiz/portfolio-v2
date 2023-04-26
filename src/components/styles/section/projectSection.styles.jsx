@@ -68,7 +68,7 @@ export const SingleProject = styled.div`
 
 `;
 
-export const ProjectImageContainer = styled.div`
+export const ProjectImageContainer = styled.a`
    display: flex;
    align-items: center;
    justify-content: center;
