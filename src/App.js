@@ -5,6 +5,7 @@ import { GlobalStyles } from "./components/styles/Global.styles";
 import { ThemeProvider } from "styled-components";
 import { Container } from "./components/styles/commen/Container.styles";
 import AboutSection from "./components/section/AboutSection";
+import ProjectSection from "./components/section/ProjectSection";
  
 const App = () =>{
 
@@ -31,6 +32,7 @@ const App = () =>{
         <Herosection /> 
         <Container>
           <AboutSection />
+          <ProjectSection />
         </Container>
          
       </ThemeProvider>

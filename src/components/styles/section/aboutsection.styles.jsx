@@ -111,6 +111,7 @@ export const AboutContent = styled.div`
    flex-grow: 1;
    flex-shrink: 1;
    flex-basis: 0;
+   margin-bottom: 45px;
 
    p{
     margin: 25px 15px;
