@@ -7,6 +7,8 @@ import { Container } from "./components/styles/commen/Container.styles";
 import AboutSection from "./components/section/AboutSection";
 import ProjectSection from "./components/section/ProjectSection";
 import ServiceSection from "./components/section/ServiceSection";
+import ContactSection from "./components/section/ContactSection";
+import Footer from "./components/layout/Footer";
  
 const App = () =>{
 
@@ -35,9 +37,9 @@ const App = () =>{
           <AboutSection />
           <ProjectSection />
           <ServiceSection />
-          
+          <ContactSection />
         </Container>
-         
+         <Footer />
       </ThemeProvider>
       
     </>

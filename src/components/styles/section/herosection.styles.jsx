@@ -135,7 +135,7 @@ export const HeroSocialIcons= styled.div`
     right: 30px;
 
     @media screen and (max-width:768px) {
-        bottom: 50px;
+        bottom: .8em;
     }
 `;
 export const SocialIcon = styled.a`

@@ -7,7 +7,7 @@ import {
     SocialIcon
 } from '../styles/section/herosection.styles'
 import { CTAButton } from '../styles/commen/CTAButton.styles';
-import {FaArrowDown, FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa"
+import {FaArrowDown,   FaGithub, FaLinkedin, FaTelegram} from "react-icons/fa"
 const Herosection = () => {
   return (
     <div>
@@ -27,8 +27,8 @@ const Herosection = () => {
         </StyledArrowDown>
 
         <HeroSocialIcons>
-            <SocialIcon href='#' target='_blank'>
-                <FaFacebook />
+            <SocialIcon href='https://t.me/abiye1921' target='_blank'>
+                <FaTelegram />
             </SocialIcon>
             <SocialIcon href='https://github.com/Abe-tiz/' target='_blank'>
                 <FaGithub />

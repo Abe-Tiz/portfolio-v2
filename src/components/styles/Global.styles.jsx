@@ -40,7 +40,7 @@ export const GlobalStyles = createGlobalStyle`
         ${({theme}) => theme.colors.purple} 100%
     );
     border: 0;
-    height: 2px;
+    height: 1.6px;
   }
 
   /* custome scrollbar */

@@ -36,11 +36,11 @@ const ProjectSection = () => {
                             </Tags>
                             <p>{project.description}</p>
                             <div>
-                                <a href={project.codeLink} target='_blank'>
+                                <a href={project.codeLink} target='_blank'  rel="noreferrer" >
                                     <FaGithub />
                                     <span>View Code</span>
                                 </a>
-                                <a href={project.ProjectLink} target='_blank'>
+                                <a href={project.ProjectLink} target='_blank' rel="noreferrer"  >
                                     <FaLink/>
                                     <span>{project.ProjectLinkText}</span>
                                 </a>
