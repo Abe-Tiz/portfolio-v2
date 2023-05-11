@@ -10,6 +10,7 @@ import ServiceSection from "./components/section/ServiceSection";
 import ContactSection from "./components/section/ContactSection";
 import Footer from "./components/layout/Footer";
  
+ 
 const App = () =>{
 
   const theme={
@@ -30,9 +31,11 @@ const App = () =>{
       
       <ThemeProvider theme={theme}>
       <GlobalStyles />
+        
         <TopBanner />
         <Navbar />
         <Herosection /> 
+
         <Container>
           <AboutSection />
           <ProjectSection />

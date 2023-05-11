@@ -1,28 +1,28 @@
 export const projects=[
     {
         img:"/images/ecommerce.png",
-        title:"Project 1",
-        tags:["React","CSS","HTML"],
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus perferendis impedit, consectetur corporis, totam velit eius ut illo quaerat fuga, quidem eum!",
-        codeLink:"#",
+        title:"ToDo App",
+        tags:["React","CSS","HTML","JavaScript"],
+        description:"that allows users to organize their tasks in a simple and intuitive way",
+        codeLink:"https://github.com/Abe-Tiz/todo_app",
         ProjectLink:"#",
         ProjectLinkText:"View Project"
     },
     {
         img:"/images/sidebar.png",
-        title:"Project 2",
-        tags:["React","CSS","HTML"],
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus perferendis impedit, consectetur corporis, totam velit eius ut illo quaerat fuga, quidem eum!",
-        codeLink:"#",
+        title:"Responsive Portfolio",
+        tags:["React","CSS","HTML","JavaScript"],
+        description:"that showcases my skills and work experience and other projects.",
+        codeLink:"https://github.com/Abe-Tiz/Task_Tracker_App",
         ProjectLink:"#",
         ProjectLinkText:"View Project"
     },
     {
         img:"/images/musicapp.png",
-        title:"Project 3",
-        tags:["React","CSS","HTML"],
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus perferendis impedit, consectetur corporis, totam velit eius ut illo quaerat fuga, quidem eum!",
-        codeLink:"#",
+        title:"Food Reciep App",
+        tags:["React","CSS","HTML","JavaScript"],
+        description:"that makes it easy to discover and save your favorite recipes",
+        codeLink:"https://github.com/Abe-Tiz/Food_Recip_app_reactjs",
         ProjectLink:"#",
         ProjectLinkText:"View Project"
     }

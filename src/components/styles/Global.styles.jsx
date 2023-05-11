@@ -28,6 +28,10 @@ export const GlobalStyles = createGlobalStyle`
         color:${({theme}) => theme.colors.orange};
     }
   }
+  strong{
+    color: #f4f;
+    
+  }
   
   ul{
     list-style-type: none;

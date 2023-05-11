@@ -41,8 +41,8 @@ const ServiceSection = () => {
                 <IconWrapper>
                    <FaBrain />
                 </IconWrapper>
-                <h1>Mentorship</h1>
-                <p> you can book a session with me for mentorship or one-to-one codeing $20/hr.</p>
+                <h1>Mobile App Development</h1>
+                <p>I develop a cross-plateform mobile app using react native and react js</p>
             </SingleServices>
         </ServicesItems>
     </ServiceContainer>

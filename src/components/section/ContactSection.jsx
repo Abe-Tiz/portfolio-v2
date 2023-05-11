@@ -23,12 +23,7 @@ const ContactSection = () => {
                     Even if it's just to say "Hay!". Don't hesitate! 
                     Drop me a line and I'll get back to you ASAP!
                 </p>
-                <p>
-                    <i>
-                       For gig and advertising opportunitys, begin your 
-                       subject with <strong>"Gig" </strong>
-                    </i>
-                </p>
+                 
                 <div>
                     <a href="mailto:abebetizazu157@gmail.com">
                         <FaEnvelope /> <span>My Email</span>
