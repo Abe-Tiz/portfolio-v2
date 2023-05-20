@@ -77,8 +77,8 @@ import useScrollDirection from '../../hooks/UseScrollDirection';
                     ): null}
 
                     {navitem.hasCTA ? (
-                        <CTAButton href='#' target='_blank'>
-                         this.portfolio.course
+                        <CTAButton href="#projects"  >
+                         My.Projects
                         </CTAButton> 
                     ) : null}  
 
