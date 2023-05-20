@@ -1,6 +1,6 @@
 export const projects=[
     {
-        img:"/images/ecommerce.png",
+        img:"/images/Pro-1.png",
         title:"ToDo App",
         tags:["React","CSS","HTML","JavaScript"],
         description:"that allows users to organize their tasks in a simple and intuitive way",
@@ -9,16 +9,16 @@ export const projects=[
         ProjectLinkText:"View Project"
     },
     {
-        img:"/images/sidebar.png",
-        title:"Responsive Portfolio",
+        img:"/images/resweb1.png",
+        title:"Responsive Website",
         tags:["React","CSS","HTML","JavaScript"],
         description:"that showcases my skills and work experience and other projects.",
-        codeLink:"https://github.com/Abe-Tiz/Task_Tracker_App",
+        codeLink:"https://github.com/Abe-Tiz/react_responsive_website",
         ProjectLink:"#",
         ProjectLinkText:"View Project"
     },
     {
-        img:"/images/musicapp.png",
+        img:"/images/reciep3.png",
         title:"Food Reciep App",
         tags:["React","CSS","HTML","JavaScript"],
         description:"that makes it easy to discover and save your favorite recipes",

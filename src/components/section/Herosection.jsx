@@ -14,7 +14,7 @@ const Herosection = () => {
       <StyledHerosection id='hero-section'>
         <HeroContent>
             <h1>Abebe Tizazu</h1>
-            <h3>Fronntend Web Developer</h3>
+            <h3>Fronntend Web Developer <br/>And Mobile App </h3>
             <p>{" { HTML . CSS . javascript . ReactJs } "}</p>
             <div>
                 <CTAButton href='#projects'> Projects </CTAButton>
