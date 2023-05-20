@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaBrain, FaCode, FaLaptopCode} from "react-icons/fa"
+import { FaCode, FaLaptopCode, FaMobile} from "react-icons/fa"
 import { 
   IconWrapper,
   ServiceContainer, 
@@ -39,7 +39,7 @@ const ServiceSection = () => {
  
             <SingleServices>
                 <IconWrapper>
-                   <FaBrain />
+                   <FaMobile />
                 </IconWrapper>
                 <h1>Mobile App Development</h1>
                 <p>I develop a cross-plateform mobile app using react native and react js</p>

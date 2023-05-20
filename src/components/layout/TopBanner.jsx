@@ -11,7 +11,7 @@ const TopBanner = () => {
             </BannerSection>
 
             <BannerSection>
-              <a href="#mycourse"> ❤️ My Course</a>
+              <a href="#projects"> ❤️ My Projects</a>
             </BannerSection>
 
             <BannerSection>
