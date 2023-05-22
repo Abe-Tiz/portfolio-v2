@@ -15,7 +15,7 @@ const Herosection = () => {
         <HeroContent>
             <h1>Abebe Tizazu</h1>
             <h3>Fronntend Web Developer <br/>And Mobile App </h3>
-            <p>{" { HTML . CSS . javascript . ReactJs } "}</p>
+            <p>{" { HTML . CSS . javascript . ReactJs . Bootstrap} "}</p>
             <div>
                 <CTAButton href='#projects'> Projects </CTAButton>
                 <CTAButton href='#contact' primary margin="0 0 0 28px"> Hire Me </CTAButton>
