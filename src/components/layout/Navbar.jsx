@@ -1,5 +1,9 @@
 import React,{useState} from 'react'
-import {FaFacebook, FaGithub, FaTwitter} from "react-icons/fa"
+import { 
+    FaGithub, 
+    FaLinkedin, 
+    FaTelegram
+} from "react-icons/fa"
 import { 
     Logo, 
     Nav,
@@ -64,14 +68,14 @@ import useScrollDirection from '../../hooks/UseScrollDirection';
                      {/* social icos */}
                      {navitem.hasSocialIcon ?  ( 
                     <SocialIcons>
-                        <NavLink href="#" target='_blank'>
-                            <FaFacebook /> 
+                        <NavLink href="https://t.me/abiye1921" target='_blank'>
+                             <FaTelegram/> 
                         </NavLink>
-                        <NavLink href="#" target='_blank'>
+                        <NavLink href="https://github.com/Abe-tiz/" target='_blank'>
                             <FaGithub />
                         </NavLink>
-                        <NavLink href="#" target='_blank'>
-                            <FaTwitter />
+                        <NavLink href="https://et.linkedin.com/in/abebe-tizazu-56a92923b" target='_blank'>
+                           <FaLinkedin />
                         </NavLink>
                     </SocialIcons> 
                     ): null}

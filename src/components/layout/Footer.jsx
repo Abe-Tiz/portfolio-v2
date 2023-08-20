@@ -18,7 +18,6 @@ const Footer = () => {
     "October",
     "November",
     "December",
-
   ]
 
   return (

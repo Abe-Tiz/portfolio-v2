@@ -34,20 +34,21 @@ const AboutSection = () => {
           
           
 
-          <p>Hi there! My name is Abebe Tizazu and I'm a frontend developer with a passion for creating beautiful and functional web and mobile applications. 
-            I specialize in React JS, HTML, CSS3,Javascript and React Native, and have experience working on a variety of projects.
+          <p>I am software developer specialized in web
+              technologies like ReactJs, React Native, Nextjs,
+              javascript, HTML5, CSS3, SQL, java, bootstrap5, C#, NodeJs,Express and MongoDb.I
+              am open minded to adopt new technologies to fulfill
+              business needs. I enjoy coding
           </p>
-            
-            
             <p>
-               I am an Information System Student in Addis Ababa University,
-               and am constantly learning and staying up-to-date with the latest trends and technologies in my field.
+              I am an Information System Student in Addis Ababa University,
+              and am constantly learning and staying up-to-date with the latest trends and technologies in my field.
             </p>
             <p>
               I'm excited to connect with other developers and designers who share my passion for creating amazing user experiences. Thanks for taking the time to get to know me!
             </p>
            
-          <CTAButton href="#" target="_blank" >
+          <CTAButton href="/cv/Abebe.pdf" target="_blank" >
               Download CV
           </CTAButton>
 
