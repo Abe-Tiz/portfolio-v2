@@ -28,9 +28,9 @@ const AboutSection = () => {
 
         <AboutContent>
 
-         <Heading>
-             <h1>About Me  <Emoji>💝</Emoji></h1>
-         </Heading>
+        <Heading>
+            <h1>About Me  <Emoji>💝</Emoji></h1>
+        </Heading>
           
           
 

@@ -42,7 +42,7 @@ const App = () =>{
           <ServiceSection />
           <ContactSection />
         </Container>
-         <Footer />
+        <Footer />
       </ThemeProvider>
       
     </>
