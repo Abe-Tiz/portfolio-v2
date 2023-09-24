@@ -15,7 +15,6 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({theme}) => theme.colors.navyBlue};
     scroll-behavior: smooth;
     font-size: 8rem;
-    
   } 
   
 

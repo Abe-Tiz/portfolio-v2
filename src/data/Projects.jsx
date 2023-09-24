@@ -30,4 +30,24 @@ export const projects = [
     ProjectLink: "#",
     ProjectLinkText: "View Project",
   },
+  {
+    img: "/images/reciep3.png",
+    title: "Food Reciep App",
+    tags: ["React", "CSS", "HTML", "JavaScript"],
+    description:
+      "that makes it easy to discover and save your favorite recipes",
+    codeLink: "https://github.com/Abe-Tiz/Food_Recip_app_reactjs",
+    ProjectLink: "#",
+    ProjectLinkText: "View Project",
+  },
+  {
+    img: "/images/reciep3.png",
+    title: "Food Reciep App",
+    tags: ["React", "CSS", "HTML", "JavaScript"],
+    description:
+      "that makes it easy to discover and save your favorite recipes",
+    codeLink: "https://github.com/Abe-Tiz/Food_Recip_app_reactjs",
+    ProjectLink: "#",
+    ProjectLinkText: "View Project",
+  },
 ];
