@@ -9,7 +9,7 @@ import ProjectSection from "./components/section/ProjectSection";
 import ServiceSection from "./components/section/ServiceSection";
 import ContactSection from "./components/section/ContactSection";
 import Footer from "./components/layout/Footer";
- 
+
  
 const App = () =>{
 
@@ -17,7 +17,7 @@ const App = () =>{
     colors:{
         white:"rgba(240,247,255,1)",
         navyBlue:"rgba(2,12,27,1)",
-        lightNavyBlue:"rgba(4,22,48,1)",
+        lightNavyBlue:"rgba(0,2,4,0.5)",
         green:"rgba(0,206,158,1)",
         orange:"rgba(249,105,14,1)",
         purple:"rgba(102,51,153,1)"
