@@ -21,7 +21,7 @@ const AboutSection = () => {
       <AboutContainer id="about">
         <ImageContainer>
           <Image
-            src="/images/abiye.jpg"
+            src="/images/imgcv.jpg"
             alt="prof-image"
             title="Abebe Tizazu"
           />
